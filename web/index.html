@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+AUTOR: Delgado Mar Jose Manuel
+VERSIÓN: 1.0 
+DESCRIPCIÓN: Login con conexion a bases de datos con servlets
+COMPILACIÓN: Se compila en tiempo de ejecución. 
+EJECUCIÓN: Ejecutando la pagina con GlashFish server y subiendo una base de datos MYSQL.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/login.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h3 style="font-family: sans-serif;font-size: 32px;">Login</h3>
+            <!--Formulario que enviara los datos al servidor-->
+            <form name="formulario" action="consu" method="post">
+                <label>Usuario:</label>
+                <input type="text" name="usuario" maxlength="35" id="usuario" placeholder="Ingresa nombre de usuario"/> 
+                <label>Contraseña:</label>
+                <input type="password" name="pass" maxlength="35" id="pass" placeholder="Ingresa password"/> 
+                <input type="submit" name="entrar" value="Entrar"/>
+            </form> 
+            
+        </div>
+    </body>
+</html>
+

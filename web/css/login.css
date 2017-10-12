@@ -1,0 +1,79 @@
+/* 
+    Created on : 1/09/2017, 03:19:00 AM
+    Author     : Carlos Nevarez
+*/
+
+label {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    float: left;
+}
+
+/* Borde de form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Inputs de ancho completo */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Estilo a todos los botones */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/*Efecto para botones*/
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* Estilo extra para un boton cancelar(rojo) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Centra imagenes en un contenedor */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Imagen de avatar */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Agrega un contenedor */
+.container {
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+/* Centa botones */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
